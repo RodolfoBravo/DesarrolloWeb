@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="es"> <!--La instruccion lang sirve para decirle al navegador el idioma del texto -->
     <head>
-        <title> Rodolfo Bravo</title>
+        <meta charset="UTF8"> <!-- esta linea sirve para decirle que utilice la notacion UTF8 -->
+        <title> Rodolfo Bravo</title> <!--Este es el texto que se vera en la pestaña del navegador -->
+        <link rel="icon" type="imagenes/png" href="Imagenes/logo.png"> <!-- esta linea es para ponerle un icolo a la pestaña del navegador-->>
     </head>
     <body>
        <header>
+           <div>
+            <figure>
+                <img src="Imagenes/avatar.jpeg" width="250" alt="Logo no se encontro"> <!-- la instruccion alt es cuando no se encuentra la imagen ese texto se mostrara width es para darle un tamaño a la imagen-->
+            </figure>
         <nav>
             <ol>
                 <li>
-                    <a href="">Portafolio</a>
+                    <a href="">Portafolio</a><!-- href es un atributo para llevarnos a un url o a otra pagina por ejemplo-->>
                 </li>
                 <li>
                     <a href="">Experiencia</a>
@@ -18,6 +24,7 @@
                 </li>
             </ol>
         </nav>
+        </div>
        </header> 
        <section>
            <h1>
@@ -31,9 +38,23 @@
                <h3>Proyectos con Python</h3>
                <h6>Codigos en gihub</h6>
                <p> <small>Fecha: 14/08/2020</small> </p>
+               <p> <small><strong>Puedes verlo en:: </strong>www.RodolfoBravo.io</small> </p>
+               <p>Este es el resultado de hacer el curso de platzi desarrollo web para crear 
+                   paginas web y aprender sobre HTML y CSS
+               </p>
            </article>
        </section>
-       <section>Seccion eventos</section>
+       <section>
+           <h2>Mas sobre mi Experiencia</h2>
+           <article>
+            <figure>
+                <img>
+            </figure>
+            <h3>Estudios Universitarios de 2015 a 2019</h3>
+            <p>Mis estudios fueronrealizados en el Instituto Tecnologico de Puebla y son egresado de la carrera de Ingenieria en electronica</p>
+            <a>Ver estudios</a>
+        </article>
+       </section>
        <section>Seccion contactos</section>
        <footer>footer</footer>
     </body>
